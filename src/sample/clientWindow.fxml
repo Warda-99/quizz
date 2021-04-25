@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClientController">
+   <children>
+      <Label layoutX="58.0" layoutY="42.0" text="Your Answer:" />
+      <Label layoutX="80.0" layoutY="329.0" text="Your Nick:" />
+      <TextField fx:id="tf_answer" layoutX="140.0" layoutY="38.0" />
+      <TextField fx:id="tf_nick" layoutX="151.0" layoutY="325.0" />
+      <Button layoutX="25.0" layoutY="108.0" mnemonicParsing="false" onAction="#sendAnswer" prefHeight="160.0" prefWidth="350.0" text="Send Answer&gt;&gt;" />
+   </children>
+</AnchorPane>
